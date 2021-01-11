@@ -1,0 +1,30 @@
+.search-bar {
+  position: relative;
+  width: 23%;
+  padding: 4px;
+
+  input {
+    padding: 8px;
+    width: 100%;
+    padding-left: 2em;
+    outline: none;
+    border: 1px solid #dbdbdb;
+    background-color: #fafafa;
+    color: #262626;
+    font: 400 17px "Roboto";
+
+    &::placeholder {
+      padding-left: 4em;
+      color: rgba(0, 0, 0, 0.551);
+      font-size: 17px;
+    }
+  }
+
+  .MuiSvgIcon-root {
+    position: absolute;
+    left: 32%;
+    top: 30%;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.551);
+  }
+}
