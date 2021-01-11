@@ -8,4 +8,23 @@
   display: flex;
   padding: 20px 8px;
   overflow: hidden;
+  position: relative;
+
+  .stories-loader {
+    border: 2px solid transparent;
+    border-color: rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.6) rgba(0, 0, 0, 0.8) black;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    animation: rotate 0.3s linear infinite;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+
+    @keyframes rotate {
+      to {
+        transform: rotate(1turn);
+      }
+    }
+  }
 }

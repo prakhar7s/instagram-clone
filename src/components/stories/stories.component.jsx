@@ -48,7 +48,7 @@ class Stories extends React.Component {
         {!isLoading ? (
           users.map((user) => <Story key={user.username} user={user} />)
         ) : (
-          <p>Loading.....</p>
+          <p className="stories-loader"></p>
         )}
       </div>
     );
