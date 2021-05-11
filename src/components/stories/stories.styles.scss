@@ -10,6 +10,12 @@
   overflow: hidden;
   position: relative;
 
+  @media (max-width: 540px) {
+    overflow: scroll;
+    width: 95%;
+    height: 140px;
+  }
+
   .stories-loader {
     border: 2px solid transparent;
     border-color: rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.6) rgba(0, 0, 0, 0.8) black;

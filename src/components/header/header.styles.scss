@@ -8,4 +8,8 @@
   padding: 10px 70px;
   border-bottom: 1px solid #dbdbdb;
   z-index: 1;
+
+  @media (max-width: 540px) {
+    padding: 10px 20px;
+  }
 }

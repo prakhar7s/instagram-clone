@@ -8,9 +8,18 @@
   margin: 0px 7px;
   cursor: pointer;
 
+  @media (max-width: 540px) {
+    width: 100px;
+  }
+
   .user-profile-pic {
     width: 90px;
     height: 90px;
+
+    @media (max-width: 540px) {
+      width: 70px;
+      height: 70px;
+    }
 
     img {
       max-width: 100%;
@@ -30,6 +39,10 @@
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.8);
+
+    @media (max-width: 540px) {
+      font-size: 14px;
+    }
   }
 
   .story-outer-circle {
@@ -38,6 +51,10 @@
     pointer-events: none;
     position: absolute;
     top: -10px;
+
+    @media (max-width: 540px) {
+      display: none;
+    }
 
     circle {
       fill: transparent;

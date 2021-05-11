@@ -9,6 +9,10 @@
     cursor: pointer;
     stroke: black;
     stroke-width: 0.6;
+
+    @media (max-width: 540px) {
+      display: none;
+    }
   }
 
   .profile-image {
@@ -37,5 +41,9 @@
     text-align: center;
     line-height: 25px;
     cursor: pointer;
+
+    @media (max-width: 540px) {
+      display: none;
+    }
   }
 }

@@ -12,6 +12,10 @@
     font-family: "Billabong";
     font-weight: 500;
     letter-spacing: 0.8px;
+
+    @media (max-width: 540px) {
+      display: none;
+    }
   }
   .instagram-logo {
     height: 25px;

@@ -21,7 +21,7 @@ const SearchBar = () => {
   };
 
   const handleInputBlur = () => {
-    searchIconRef.current.style.left = "32%";
+    searchIconRef.current.style.left = "5%";
     inputRef.current.placeholder = inpValue ? inpValue : "Search";
     if (inpValue) {
       inputRef.current.value = "";
